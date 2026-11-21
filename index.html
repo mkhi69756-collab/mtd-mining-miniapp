@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MTD Mining</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #101827;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .card {
+      background: #1d2b42;
+      padding: 24px;
+      border-radius: 16px;
+      margin-top: 25px;
+    }
+    button {
+      width: 100%;
+      padding: 15px;
+      margin-top: 12px;
+      border: 0;
+      border-radius: 10px;
+      background: #16a36a;
+      color: white;
+      font-size: 17px;
+    }
+  </style>
+</head>
+<body>
+  <h1>MTD MINING</h1>
+  <div class="card">
+    <h2>Welcome to MTD</h2>
+    <h3>Balance: 0 MTD</h3>
+    <button onclick="alert('Backend connection coming soon')">
+      Start Mining
+    </button>
+    <button onclick="alert('Tap feature coming soon')">
+      Tap to Earn
+    </button>
+  </div>
+  <script>
+    const tg = window.Telegram.WebApp;
+    tg.ready();
+    tg.expand();
+  </script>
+</body>
+</html>
